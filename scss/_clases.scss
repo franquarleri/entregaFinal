@@ -1,0 +1,128 @@
+
+.center{
+    text-align: center;
+}
+
+
+.inicio__carrusel--color {
+    background-color:transparent;
+}
+
+.h20{
+    height: 35em;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.servicios__style--icons{
+    display: flex;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    flex-wrap:wrap;
+    text-align: center;
+    background: linear-gradient(to left, pink,white);
+}
+
+.w-50{
+    width: 100%;
+}
+
+.mar{
+    margin-bottom: 10px;
+}
+.marg{
+    margin-bottom: 10px;
+}
+
+.espacios__style--img{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria{
+    margin-bottom: 10px;
+}
+.galeria:hover{
+    transform:scale(1.2);
+        cursor: pointer;
+        transition: transform 1.5s;
+        }
+.espacios__tranform--fotos{
+    margin-bottom: 10px;
+}    
+
+.espacios__tranform--fotos :hover {
+    transform:scale(1.8);
+    cursor:pointer;
+    transition: transform 1s;
+    }
+
+    .animacion{
+        margin-bottom: -5px;
+    }
+
+    .animacion :hover{
+        transform:scale(1.2);
+        cursor: pointer;
+        transition: transform 1.5s;
+        
+    }
+
+.servicios :hover {
+    transform:scale(1.1);
+        cursor: pointer;
+        transition: transform 1s;
+        background: green;
+    }
+
+.servicios :hover .list-group-item{
+    background:green;
+}
+
+.planes__card1--style :hover {
+    background:#00C9FF;
+    border:1px solid #00C9FF; 
+}
+
+.planes__card1--style :hover .list-group-item{
+    background: green !important;
+
+.planes__card2--syle :hover {
+    background :#00C9FF;
+    border:1px solid #00C9FF; 
+}
+
+.planes__card2--style :hover .list-group-item{
+    background:#00C9FF !important
+}
+.planes__card3--style :hover {
+    background:#ff95e9;
+    border:1px solid #ff95e9;
+}
+
+.planes__card3--style :hover .list-group-item{
+    background:#ff95e9 !important
+}
+.card:hover .btn-outline-dark{
+    color:white;
+    background:#212529;
+}
+
+.bg-color{
+    background-color:transparent;
+}
+
+.form__border--style{
+    border: solid 2px black;
+    }
+
+
+.error{
+    width: 100%;
+    margin:auto;
+    }

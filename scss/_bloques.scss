@@ -1,0 +1,82 @@
+
+section{
+    article{
+            h1{
+                text-align: center;
+        }
+    }
+}
+
+section{
+    article{
+        p{
+            text-align: center;
+        }
+    }
+}
+
+body{
+    background-image: url(../img/fondo-body.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h2,h4,a,h1{
+color:black;
+}
+
+main{
+    iframe{
+        width: 100%;
+        size:cover;
+        height: 30em;
+    }
+}
+
+form{
+    background:linear-gradient(transparent); 
+    width: 80%; 
+    margin: 50px;
+    padding: 50px;
+}
+
+nav{
+    ul{
+        padding: 20px 0 50px 0;
+    }
+}
+
+aside{
+    position:fixed;
+    bottom: 0%;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+ul{
+    ul{
+        position: absolute;
+        display:none;
+    }
+}
+ul{
+    ul{
+        li{
+            display: block;
+            
+        }
+    }
+}
+ul{
+    li :hover{
+        ul{
+            display: block;
+        }
+    }
+}
+
+
+
